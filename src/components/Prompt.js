@@ -22,7 +22,7 @@ class Prompt extends Component {
 
         ///OPENAI
         const configuration = new Configuration({
-            apiKey: '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',
+            apiKey: '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',
         });
         const openai = new OpenAIApi(configuration);
 
