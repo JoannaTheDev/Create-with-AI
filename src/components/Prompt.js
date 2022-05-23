@@ -43,11 +43,6 @@ class Prompt extends Component {
             .catch(err => {
                 console.log(`error ${err}`)
             });     
-            const [response, setResponse] = useState(localStorage.getItem('response') );
-              
-                useEffect(() => {
-                  localStorage.setItem('response', JSON.stringify(response));
-                }, [response]);
     };
 
 
