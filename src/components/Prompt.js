@@ -1,4 +1,4 @@
-import {Component, useEffect, useState} from 'react'
+import {Component} from 'react'
 import {Container, Form, Button, Card} from 'react-bootstrap'
 
 const {Configuration, OpenAIApi} = require("openai");
